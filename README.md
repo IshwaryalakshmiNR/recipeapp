@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Recipe App with Favorites and Filters
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Recipe Application built using ReactJS and Redux. It allows users to browse, search, and filter recipes, save their favorite recipes, and view detailed recipe information.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **Display Recipes**: Browse a collection of recipes with titles, images, and brief descriptions.
+2. **API Integration**: Fetch recipe data from an API to populate the recipe collection.
+3. **Search Functionality**: Search for recipes based on keywords, ingredients, or specific criteria (e.g., vegetarian, gluten-free).
+4. **Detailed View**: Display recipe details such as ingredients, instructions, preparation time, and serving size when a recipe is selected.
+5. **Favorites List**: Mark recipes as favorites and save them to a favorites list for easy access.
+6. **Filters**: Filter recipes by categories like breakfast, lunch, dinner, or dietary restrictions.
+7. **State Management**: Utilize Redux for state management with actions, reducers, and the store.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **ReactJS**: For building the user interface.
+- **Redux**: For managing the application state.
+- **CSS/SCSS**: For styling the application.
+- **Edamam API**: For fetching recipe data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure you have the following installed on your system:
 
-### `npm run build`
+- Node.js
+- npm or yarn
+- Git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/recipe-app.git
+   cd recipe-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+   Recipe App Sample outputs: 
+![image](https://github.com/user-attachments/assets/e44ff434-686d-4219-a230-417896d3cec5)
+![image](https://github.com/user-attachments/assets/bd9665ce-5a3a-40d9-9140-f71194c1d432)
+![image](https://github.com/user-attachments/assets/5235746f-36a1-4cfc-9529-56ddc9f419e4)
+![image](https://github.com/user-attachments/assets/b6565169-263c-4df0-86f9-b3557f317a35)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
