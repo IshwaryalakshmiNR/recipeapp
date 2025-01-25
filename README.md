@@ -18,7 +18,29 @@ This project is a Recipe Application built using ReactJS and Redux. It allows us
 - **Redux**: For managing the application state.
 - **CSS/SCSS**: For styling the application.
 - **Edamam API**: For fetching recipe data.
-
+## Dependencies 
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "redux-thunk": "^3.1.0",
+    "web-vitals": "^2.1.4"
+  }
 ## Getting Started
 
 ### Prerequisites
@@ -33,11 +55,11 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/recipe-app.git
+   git clone https://github.com/IshwaryalakshmiNR/recipeapp.git
    cd recipe-app
 
 
-   Recipe App Sample outputs: 
+   ### Recipe App Sample outputs: 
 ![image](https://github.com/user-attachments/assets/e44ff434-686d-4219-a230-417896d3cec5)
 ![image](https://github.com/user-attachments/assets/bd9665ce-5a3a-40d9-9140-f71194c1d432)
 ![image](https://github.com/user-attachments/assets/5235746f-36a1-4cfc-9529-56ddc9f419e4)
